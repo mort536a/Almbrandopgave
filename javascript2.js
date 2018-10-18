@@ -57,6 +57,4 @@ function shownumbers() {
     smartphone_kvik.innerHTML = Math.round(kvik / 4000);
     smartphone_forbrug.innerHTML = Math.round(forbrug / 4000);
 
-
-
 }
