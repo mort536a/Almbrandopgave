@@ -55,7 +55,7 @@ function shownumbers() {
     cykler_kvik.innerHTML = Math.round(kvik / 3000);
     cykler_forbrug.innerHTML = Math.round(forbrug / 3000);
     computer_kvik.innerHTML = Math.round(kvik / 5000);
-    computer_forbrug.innerHTML = Math.round(forbrug / 3000);
+    computer_forbrug.innerHTML = Math.round(forbrug / 5000);
     smartphone_kvik.innerHTML = Math.round(kvik / 4000);
     smartphone_forbrug.innerHTML = Math.round(forbrug / 4000);
 
