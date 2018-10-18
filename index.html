@@ -97,9 +97,33 @@
     </div>
 
     <div class="contact">
+<h2>Ring mig op, så vi kan snakke om det</h2>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Fulde navn:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Email adresse:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+<form>
+     <label class="required" for="birthday">Fødselsdag:</label><br />
+  <input type="date" name="birthday">
+</form>
+  </div>
+  <div class="row">
+    <label class="required" for="birthday">årsag til lån:</label><br />
+    <textarea id="birthday" class="input" name="text" value="" size="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
 
+    <input id="submit_button" type="submit" value="OK" />
+</form>
     </div>
-
     <!-- Footer -->
 
     <footer>
