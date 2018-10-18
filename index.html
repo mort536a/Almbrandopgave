@@ -93,34 +93,26 @@
             </div>
 
         </div>
-
-
         <div class="contact">
             <h4>Ring mig op, så vi kan snakke om det</h4>
             <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                <div class="row">
+                <div class="column">
                     <label class="required" for="name">Fulde navn:</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                    <input id="name" class="input" name="navn" type="text" value="" size="30" /><br />
                     <span id="name_validation" class="error_message"></span>
-                </div>
-                <div class="row">
-                    <label class="required" for="email">Email adresse:</label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                    <span id="email_validation" class="error_message"></span>
-                </div>
-                <div class="row">
-                    <form>
-                        <label class="required" for="birthday">Fødselsdag:</label><br />
-                        <input type="date" name="birthday">
-                    </form>
-                </div>
-                <div class="row">
-                    <label class="required" for="birthday">årsag til lån:</label><br />
-                    <textarea id="birthday" class="input" name="text" value="" size="30"></textarea><br />
-                    <span id="message_validation" class="error_message"></span>
-                </div>
 
+
+                    <label class="required" for="telephone">Telefonnummer</label><br />
+                    <input id="name" class="input" name="telefonnummer" type="text" value="" size="30" /><br />
+                    <span id="name_validation" class="error_message"></span>
+
+                    <form>
+                        <label class="required" for="birthday">Fødselsdag</label><br />
+                        <input type="date" name="fødselsdag">
+                    </form>
+                <br>
                 <input id="submit_button" type="submit" value="OK" />
+             </div>
             </form>
         </div>
 
@@ -130,6 +122,20 @@
     <footer>
         <br>
         <p>Dette website er lavet i forbindelse med en case opgave mellem Alm. Brand og Københavns Ervhvervs Akademi</p>
+
+        <p>ALM. BRAND ▪ MIDTERMOLEN 7 ▪ 2100 KØBENHAVN Ø ▪ ALMBRAND@ALMBRAND.DK</p>
+<hr class="footer_divider">
+<div class="footer_social">
+<a href="https://www.facebook.com/almbrand/">
+<img src="img/icons/facebook_icon.png" alt="Gå til Alm. Brands Facebook" title="Facebook" target="_blank">
+</a>
+<a href="https://twitter.com/alm_brand">
+<img src="img/icons/twitter_icon.png" alt="Gå til Alm. Brands Twitter" title="Twitter">
+    </a>
+<a href="https://www.linkedin.com/company/alm-brand">
+<img src="img/icons/linkedin_icon.png" alt="Gå til Alm. Brands LinkedIn" title="LinkedIn">
+</a>
+</div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
